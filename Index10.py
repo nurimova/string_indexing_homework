@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    a=int(s[0])
+    b=int(s[1])
+    c=int(s[2])
+    d=int(s[3])
+    e=int(s[4])
+    n=a+b+c+d+e
+    return n
+s='23400'
+print(main(s))

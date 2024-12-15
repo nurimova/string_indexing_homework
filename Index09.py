@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if type(s)==int:
+        return s
+    else:
+        return -1 
+s='k'
+print(main(s))
+    
